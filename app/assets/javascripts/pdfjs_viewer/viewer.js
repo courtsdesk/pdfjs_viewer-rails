@@ -7155,6 +7155,9 @@ function validateFileURL(file) {
     // Removing of the following line will not guarantee that the viewer will
     // start accepting URLs from foreign origin -- CORS headers on the remote
     // server must be properly configured.
+    console.log('here')
+    console.log(fileOrigin)
+    console.log(viewerOrigin)
     // if (fileOrigin !== viewerOrigin) {
     //   throw new Error('file origin does not match viewer\'s');
     // }
